@@ -1,10 +1,6 @@
-# Deep learning to select liver parenchyma for categorizing hepatic steatosis on multinational chest CT
+# Automated segmentation for measuring kidney volume and length in CT images: A cross-national evaluation study
 
-Welcome to our GitHub repository for the DL-parenchymal method, an automated deep-learning (DL) system for detecting moderate-to-severe hepatic steatosis on unenhanced chest CT images. This repository provides the implementation of our method, including a nnunet for liver segmentation, the script to pick parenchymal portions using DL auto-segmentation, as well as the dataset used for development and validation.
-
-### Method introduction
-
-The DL-parenchymal method can automatically select the parenchymal portion for measuring liver attenuation on CT images. This novel method can enhance incidental assessments of moderate-to-severe hepatic steatosis detection using unenhanced chest CT images. [Method details.md](documentation/Method_introduction.md)
+Welcome to our GitHub repository for the DL-Kidney system, an automated deep-learning (DL) system for segmenting and measuring kidney structure on unenhanced and contrast-enhanced abdominal CT images. This repository provides the implementation of our method, including a nnunet for kidney segmentation, the script to measure volume and lengths using DL auto-segmentation, as well as the dataset used for development and test. [Method details.md](documentation/Method_introduction.md)
 
 ### Implementation steps
 
