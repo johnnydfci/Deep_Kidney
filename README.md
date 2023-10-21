@@ -4,7 +4,7 @@ Welcome to our GitHub repository for the DL-Kidney system: a nnunet for kidney s
 
 ### Implementation steps
 
-1. nnU-Net for parenchymal kidney segmentation: [Implementation_steps.md](documentation/Implementation_steps.md)
+1. nnU-Net for parenchymal kidney segmentation: [nnU-Net Implementation.md](documentation/Implementation_steps.md)
 
 2. A gift-wrapping algorithm to get total kidney segmentation from parenchymal auto-segmentation [DL_seg_to_select_parenchyma.ipynb](DL_seg_to_select_parenchyma.ipynb)
 
