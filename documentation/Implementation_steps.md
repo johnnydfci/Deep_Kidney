@@ -1,10 +1,10 @@
 # Deep learning model for liver segmentation
 
-A nnU-Net v1 model is developed using this repository https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1. The nnU-Net v1 was implemented and tested on Linux (Ubuntu 18.04) with an RTX 3060 GPU (12GB VRAM). 
+A nnU-Net model is developed using this repository https://github.com/MIC-DKFZ/nnUNet. The nnU-Net was implemented and tested on Linux (Ubuntu 18.04) with an RTX 3060 GPU (12GB VRAM). 
 
 ### Environment setup
 
-```conda create -n lipa python=3.8.5``` # create a conda environment with python3.8.5; ```conda remove -n lipa --all ```if you want to delete this conda environment. 'lipa' stands for liver parenchymal
+```conda create -n kidu python=3.8.5``` # create a conda environment with python3.8.5; ```conda remove -n kidu --all ```if you want to delete this conda environment. 'kidu' stands for liver parenchymal
 
 ```conda activate lipa```  # activate the conda environment
 
