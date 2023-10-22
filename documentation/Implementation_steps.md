@@ -39,8 +39,8 @@ A nnU-Net deep learning model is developed using this repository https://github.
  ```nnUNet_predict -i $nnUNet_raw_data_base/nnUNet_test_data/test_img_in_nii/ -o  $nnUNet_raw_data_base/nnUNet_test_data/test_seg_in_nii_raw/ -t 666 -m 3d_fullres -f 1```
   
 
-### segmentation post-process and performance compute
-```nnUNet_raw_data_base/nnunet_seg_postprocess_top1mask_2class.ipynb``` #  post-process the segmented mask to retain the biggest connected component
+### Test performance evaluation
+
 ```nnUNet_raw_data_base/nnunet_seg_various_accuracy_compute.ipynb``` # compute segmentation performances, i.e., dsc, jc, hd
 
 
