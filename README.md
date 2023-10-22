@@ -8,7 +8,7 @@ Welcome to our GitHub repository for the DL-Kidney system: a nnunet for kidney s
 
 2. Post-precssing scripts to withhold top1 mask from each class of parenchymal [nnunet_seg_postprocess.ipynb](nnunet_seg_postprocess.ipynb)
 
-3. Get voxel-count volume from parenchymal kidney segmentation: 
+3. Get voxel-count volume from parenchymal kidney segmentation: [kidney_parenchymal_seg_to_vol.ipynb](kidney_parenchymal_seg_to_vol.ipynb)
 
 4. A gift-wrapping algorithm to get total kidney segmentation from parenchymal segmentation [seg_gift_wrapping.ipynb](seg_gift_wrapping.ipynb)
 
@@ -16,7 +16,9 @@ Welcome to our GitHub repository for the DL-Kidney system: a nnunet for kidney s
 
 6. plot figures of all results: ```dir: stats_to_figure/ ```
 
-Our deep learning system was developed and externally validated on a total of 1,153 CT images from cross-national databases. All CT images were reformatted to the NIfTI format and resampled to a consistent voxel spacing of 1.0 x 1.0 x 5.0 mm/pixel. Curated CT images and kidney segmentations can be freely downloaded by Google Drive tbd or Baidu Wangpan tbd.  Right kidney: class 1; left kidney: class 2.
+Our deep learning system was developed and externally validated on a total of 1,153 CT images from cross-national databases. All CT images were reformatted to the NIfTI format and resampled to a consistent voxel spacing of 1.0 x 1.0 x 5.0 mm/pixel. Curated CT images and kidney segmentations can be freely downloaded by Google Drive tbd or Baidu Wangpan tbd.  
+
+Right kidney: class 1; left kidney: class 2.
 
 ## Publication
 
