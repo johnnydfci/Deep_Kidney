@@ -33,7 +33,8 @@ A nnU-Net deep learning model is developed using this repository https://github.
  
  ```nnUNet_raw_data_base/file_op_to_infer_by_nnunet.ipynb```  # prepare data into the required file name, where each nifty image name has to end with '0000.nii.gz'
  
-  ```nnUNet_trained_models/ ``` # download pre-trained model from Gdrive or baiduwangpan ```Files_for_running_github/nnUNet_trained_models.zip``` dir. This model has 421 training and 105 tuning images. . The required paths are shown in this [screenshot.png](Pre_trained_model_paths.png)
+  ```nnUNet_trained_models/ ``` # download pre-trained model from Gdrive or baiduwangpan.  This model has 421 training and 105 tuning images. The required model path is shown in this [screenshot.png](Pre_trained_model_paths.png) The model is stored here: ```Files_for_running_github/nnUNet_trained_models.zip``` 
+  
    
  ```nnUNet_predict -i $nnUNet_raw_data_base/nnUNet_test_data/test_img_in_nii/ -o  $nnUNet_raw_data_base/nnUNet_test_data/test_seg_in_nii_raw/ -t 666 -m 3d_fullres -f 1```
   
