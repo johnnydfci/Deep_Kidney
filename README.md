@@ -10,7 +10,7 @@ Welcome to our GitHub repository for the DL-Kidney system: a nnunet for kidney s
 
 3. A gift-wrapping algorithm to get total kidney segmentation from parenchymal segmentation [seg_gift_wrapping.ipynb](seg_gift_wrapping.ipynb)
 
-4. use auto-segmentation to calculate voxel-count volume and pole-to-pole lengths: [kidney_seg_to_len.ipynb](kidney_seg_to_len.ipynb)
+4. use auto-segmentation to calculate voxel-count volume and pole-to-pole lengths: [kidney_seg_to_vol_and_len.ipynb](kidney_seg_to_vol_and_len.ipynb)
 
 5. plot figures of all results: ```dir: stats_to_figure/ ```
 
