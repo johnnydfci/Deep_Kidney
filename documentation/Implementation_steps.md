@@ -4,7 +4,9 @@ A nnU-Net deep learning model is developed using this repository https://github.
 
 ### Environment setup
 
-```conda create -n kidu python=3.8.5``` # create a conda environment with python3.8.5; ```conda remove -n kidu --all ```if you want to delete this conda environment. 'kidu' stands for both contrast-enhanced and non-enhanced kidney images.
+```conda create -n kidu python=3.8.5``` # create a conda environment with python3.8.5; ```conda remove -n kidu --all ```if you want to delete this conda environment. 
+
+'kidu' stands for both contrast-enhanced and non-enhanced kidney images.
 
 ```conda activate kidu ```  # activate the conda environment
 
