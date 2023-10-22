@@ -8,7 +8,7 @@ Welcome to our GitHub repository for the DL-Kidney system: a nnunet for kidney s
 
 2. Post-precssing scripts to withhold top1 mask from each class of parenchymal [nnunet_seg_postprocess.ipynb](nnunet_seg_postprocess.ipynb)
 
-3. Get voxel-count volume from parenchymal kidney segmentation: 
+3. Get voxel-count volume from parenchymal kidney segmentation: [kidney_parenchymal_seg_to_vol.ipynb](kidney_parenchymal_seg_to_vol.ipynb)
 
 4. A gift-wrapping algorithm to get total kidney segmentation from parenchymal segmentation [seg_gift_wrapping.ipynb](seg_gift_wrapping.ipynb)
 
