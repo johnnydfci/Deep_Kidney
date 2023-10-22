@@ -1,2 +1,2 @@
-,CT_id,length_right_gd,length_right_ai,length_left_gd,length_left_ai,len_rgd_cord0,len_rai_cord0,len_rgd_cord1,len_rai_cord1,len_lgd_cord0,len_lai_cord0,len_lgd_cord1,len_lai_cord1
-0,Colon_001,94.71008,94.71008,94.56215,94.56215,[133. 238.  65.],[172. 252.  82.],[172. 252.  82.],[172. 252.  82.],[268. 220.  63.],[268. 220.  63.],[249. 267.  79.],[249. 267.  79.]
+,CT_id,volume_right_gd,volume_right_ai,volume_left_gd,volume_left_ai,length_right_gd,length_right_ai,length_left_gd,length_left_ai,len_rgd_cord0,len_rai_cord0,len_rgd_cord1,len_rai_cord1,len_lgd_cord0,len_lai_cord0,len_lgd_cord1,len_lai_cord1
+0,Colon_001,111.635,111.635,266.02,266.02,94.56215,94.56215,94.71008,94.71008,[133. 238.  65.],[172. 252.  82.],[172. 252.  82.],[172. 252.  82.],[268. 220.  63.],[268. 220.  63.],[249. 267.  79.],[249. 267.  79.]
