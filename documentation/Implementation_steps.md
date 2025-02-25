@@ -33,7 +33,7 @@ A nnU-Net deep learning model is developed using this repository https://github.
  
  ```nnUNet_raw_data_base/file_op_to_infer_by_nnunet.ipynb```  # prepare data into the required file name, where each nifty image name has to end with '0000.nii.gz'
  
-  ```nnUNet_trained_models/ ``` # download pre-trained model from Gdrive or baiduwangpan.  This model has 421 training and 105 tuning images. The required model path is shown in this [screenshot.png](Pre_trained_model_paths.png) The model is stored here: ```Files_for_running_github/nnUNet_trained_models.zip``` 
+  ```nnUNet_trained_models/ ``` # download pre-trained model from Gdrive or baiduwangpan.  This model has 421 training and 105 tuning images. The required model path is shown in this [screenshot.png](Pre_trained_model_paths.png) The model is stored here: https://drive.google.com/file/d/1No6qpviwyO-WyRBqjFdm8sQjlrUIiY2E/view?usp=sharing
   
  ### nnunet scripts to test kidney segmentation in input CTs
  
